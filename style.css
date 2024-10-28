@@ -2,11 +2,15 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: #C69C72;
 }
 .box {
-    height: 200px;
+    height: 100px;
     width: 200px;
-    background-color: burlywood;
+    background-color: #8E6E53;
     font-size: 30pt;
+}
+
+label{
+    background-color: #8E6E53;
 }
