@@ -1,6 +1,7 @@
 body{
     border: 8px solid black;
     display: flex;
+    justify-content: center;
     background-color: lightgray;
 }
 .box {
