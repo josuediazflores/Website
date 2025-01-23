@@ -1,17 +1,19 @@
 body{
     display: flex;
-    justify-content: left;
     background-color: #C69C72;
     flex-direction: column;
 }
 .menubar {
-    height: 100vh;
+    height: 100%;
     width: 15%;
     background-color: #8E6E53;
     font-size: 30pt;
     padding: 20px;
     box-sizing: border-box;
+    position: fixed; /* Make it a fixed sidebar */
     margin: 0;
+    top: 0;
+    left: 0;
 }
 
 label{
