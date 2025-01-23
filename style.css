@@ -12,6 +12,9 @@ body{
     box-sizing: border-box;
     margin: 0;
     
+    position: fixed; /* Fix it to the side of the screen */
+    left: 0; /* Align it to the left */
+    top: 0; /* Start at the top */
 }
 
 label{
