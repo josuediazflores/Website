@@ -1,21 +1,28 @@
-body{
+body {
     display: flex;
-    background-color: #C69C72;
-    flex-direction: column;
+    margin: 0;
+    height: 100vh; /* Ensures the body takes the full viewport height */
 }
+
 .menubar {
-    height: 100%;
-    width: 15%;
-    background-color: #8E6E53;
+    display: flex; /* Enable Flexbox for the menubar */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    height: 100%; /* Full height of the viewport or parent */
+    width: 15%; /* Sidebar width */
+    background-color: #8E6E53; /* Sidebar color */
     font-size: 30pt;
     padding: 20px;
     box-sizing: border-box;
-    position: fixed; /* Make it a fixed sidebar */
     margin: 0;
+    position: fixed; /* Fix it to the left side of the page */
     top: 0;
     left: 0;
 }
 
-label{
-    background-color: #8E6E53;
+.main-content {
+    margin-left: 15%; /* Offset to avoid overlapping with the sidebar */
+    padding: 20px;
+    flex: 1; /* Allow the content to grow and take available space */
+    background-color: #C9C972; /* Background for the content area */
 }
